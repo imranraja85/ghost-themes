@@ -97,7 +97,8 @@ strong {
 }
 .container, .pagination {
 	position:relative;
-	width:500px;
+	/*width:500px;*/
+	width:600px;
 	margin:0 auto;
 }
 .pagination {
@@ -135,6 +136,11 @@ strong {
 	background:#1b1f23;
 	-webkit-animation-duration:1s;
 	animation-duration:1s;
+}
+.logo-text{
+  text-decoration: none;
+  border-bottom: none;
+  margin-right: 16px;
 }
 .content, .brand {
 	display:block;
@@ -295,9 +301,15 @@ article input:hover {
 article input:focus {
 	border:1px solid #999;
 }
+
+.share {
+  font-size: 26px;
+  text-align: center;
+}
 .author {
 	border-top: 1px solid #ddd;
 	padding: 40px 0 80px;
+  margin-top: 20px;
 }
 .author img {
 	border-radius: 50%;

@@ -19,6 +19,9 @@
     </div>
 
     <div class="container">
+        <div class="share">
+          {{> share}}
+        </div>
         <div class="author animated fadeIn clearfix">
             {{#author}}
                 <img src="{{image}}" alt="{{name}}" />
@@ -30,6 +33,6 @@
         </div>
     </div>
 
-    {{!> comments}}
+    {{> comments}}
 
 {{/post}}
